@@ -1,0 +1,39 @@
+{
+  "uuid": "eaa7e641bd2ff654cda65ae70135cf3c",
+  "path": "Offline/TSOP%20Module",
+  "name": "TSOP Module",
+  "content": "",
+  "created_at": "2023-03-30 00:43:02",
+  "updated_at": "2023-03-30 00:43:18",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "af4287c9ad81e4ce0d990f952a358b7f",
+      "title": "Circuit 1",
+      "description": "",
+      "docType": "1",
+      "master": "3fbb29dfe61d8ddbf188c3d9c539c88f",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1680117198,
+      "createTime": 1680117182,
+      "histories": [],
+      "created_at": "2023-03-30 00:43:02",
+      "updated_at": "2023-03-30 00:43:18"
+    }
+  ],
+  "sort": [],
+  "title": "TSOP Module",
+  "foldername": "TSOP Module",
+  "schfilename": "TSOP Module.json",
+  "schfilemtime": 1680117198960
+}

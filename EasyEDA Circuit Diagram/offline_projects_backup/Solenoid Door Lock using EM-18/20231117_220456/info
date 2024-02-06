@@ -1,0 +1,277 @@
+{
+  "uuid": "ef8c140f36fb4f72335cd628500335e3",
+  "path": "Offline/Solenoid%20Door%20Lock%20using%20EM-18",
+  "name": "Solenoid Door Lock using EM-18",
+  "content": "",
+  "created_at": "2023-11-17 21:05:34",
+  "updated_at": "2023-11-17 22:04:56",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2b1617b80c0f95956aee4e7e5e6a4a7a",
+      "title": "3x3 KeyPad",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "61a95e5c9774450599fe87fd32c6347f": 9,
+        "067f22ec3d424564a46d3c7e1ebbec4a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PINHEADER-6PIN6",
+          1,
+          "PINHEADER-6PIN",
+          "CN1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "tiennguyenanh1",
+            "spiceSymbolName": "PINHEADER-6PIN6",
+            "puuid": "6ef05b3d0154437899c973c679e1dd59",
+            "uuid": "067f22ec3d424564a46d3c7e1ebbec4a"
+          }
+        ],
+        [
+          "",
+          9,
+          "MICROSWITCH",
+          "U1,U2,U3,U4,U5,U6,U7,U8,U9",
+          {
+            "Contributor": "LuckyStiff63",
+            "sourceId": "F4cICwqI0",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "ESO_SPST_Momentary",
+            "Manufacturer Part": "",
+            "puuid": "67803303c62e4586a9789d12ec72de95",
+            "uuid": "61a95e5c9774450599fe87fd32c6347f"
+          }
+        ]
+      ],
+      "updateTime": 1700237052,
+      "createTime": 1700235334,
+      "histories": [],
+      "created_at": "2023-11-17 21:05:34",
+      "updated_at": "2023-11-17 21:34:12"
+    },
+    {
+      "uuid": "7a02cf3e8e84df071b22e221d56713c7",
+      "title": "EM-18 Module",
+      "description": "",
+      "docType": "1",
+      "master": "e595070891bfba326cc60fcd7ba78243",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "beb17a30eb5242d2a72e78921c8a4d85": 1,
+        "4db3ae8b462547a58798a87d50853d8a": 1,
+        "fc0c167037d74e28bd6b1e1d7a5d5729": 1,
+        "3c449639e33d4813b486f0c8048c72e8": 1,
+        "b045ad83da194f2686216c88372c4206": 2,
+        "6a363a19044347a7bf1836d3dbeb087f": 1,
+        "baae9fa8b17b4747bac36d31655279b9": 1,
+        "65722e39c1044a799a931730924bb8e3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PINHEADER-6PIN6",
+          1,
+          "PINHEADER-6PIN",
+          "CN1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "tiennguyenanh1",
+            "spiceSymbolName": "PINHEADER-6PIN6",
+            "puuid": "6ef05b3d0154437899c973c679e1dd59",
+            "uuid": "067f22ec3d424564a46d3c7e1ebbec4a"
+          }
+        ],
+        [
+          "",
+          9,
+          "MICROSWITCH",
+          "U1,U2,U3,U4,U5,U6,U7,U8,U9",
+          {
+            "Contributor": "LuckyStiff63",
+            "sourceId": "F4cICwqI0",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "ESO_SPST_Momentary",
+            "Manufacturer Part": "",
+            "puuid": "67803303c62e4586a9789d12ec72de95",
+            "uuid": "61a95e5c9774450599fe87fd32c6347f"
+          }
+        ],
+        [
+          "",
+          2,
+          "2.2K METAL FILM 1/4W RESISTOR",
+          "2.2K,470R",
+          {
+            "Manufacturer": "Huaxing Mechanical-Elec.",
+            "Manufacturer Part": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C714002",
+            "link": "",
+            "Contributor": "jellybeanstaffy",
+            "Convert to PCB": "Yes",
+            "Add into BOM": "Yes",
+            "spiceSymbolName": "1/4W-2.2KΩ±1%",
+            "puuid": "71dfd207e0fc455686a25864027932a6",
+            "uuid": "b045ad83da194f2686216c88372c4206"
+          }
+        ],
+        [
+          "BUZZER",
+          1,
+          "BUZ-TH_BD12.0-P6.00-D0.9-RD",
+          "BUZZER1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900014030",
+            "Manufacturer": "null",
+            "Manufacturer Part": "buzzer",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900014030&%26type=1&ref=editor",
+            "spiceSymbolName": "BUZZER",
+            "puuid": "2739dcdf8a8e413a8b48191b26682f31",
+            "uuid": "baae9fa8b17b4747bac36d31655279b9"
+          }
+        ],
+        [
+          "100UF/16V",
+          1,
+          "CAP-TH_BD6.3-P2.50-D0.5-FD",
+          "C1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900021331",
+            "Manufacturer": "null",
+            "Manufacturer Part": "100uF/16V",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "100UF/16V",
+            "puuid": "64a7f92837bb4510988b60872b0cfbf5",
+            "uuid": "4db3ae8b462547a58798a87d50853d8a"
+          }
+        ],
+        [
+          "104",
+          1,
+          "NP CAP-8*3.5-5.08MM",
+          "C2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "Suppression Capacitor222M/250V",
+            "Supplier Part": "C46751",
+            "Contributor": "sunbin",
+            "spiceSymbolName": "104nf",
+            "puuid": "ce28be2588fe4d3193bc8db4667c4821",
+            "uuid": "fc0c167037d74e28bd6b1e1d7a5d5729"
+          }
+        ],
+        [
+          "",
+          1,
+          "LED5",
+          "LED",
+          {
+            "spiceSymbolName": "-LED",
+            "Manufacturer Part": "",
+            "puuid": "cb338fad53d44142a6f43bf6cc108a2b",
+            "uuid": "6a363a19044347a7bf1836d3dbeb087f"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          1,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "BC557",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-R",
+          "Q1",
+          {
+            "Contributor": "LCSC",
+            "Supplier Part": "C180418",
+            "Supplier": "LCSC",
+            "Manufacturer": "CJ(江苏长电/长晶)",
+            "Manufacturer Part": "BC557",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C180418&%26type=1&ref=editor",
+            "spiceSymbolName": "BC557",
+            "puuid": "1bae70439f094a60b2becb9f28a33e52",
+            "uuid": "3c449639e33d4813b486f0c8048c72e8"
+          }
+        ],
+        [
+          "",
+          1,
+          "EM_18",
+          "U10",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "muhammedimdaad16",
+            "spiceSymbolName": "EM-18",
+            "puuid": "5a46ee555918438997538e98006f4b54",
+            "uuid": "beb17a30eb5242d2a72e78921c8a4d85"
+          }
+        ]
+      ],
+      "updateTime": 1700238896,
+      "createTime": 1700237108,
+      "histories": [],
+      "created_at": "2023-11-17 21:35:08",
+      "updated_at": "2023-11-17 22:04:56"
+    }
+  ],
+  "sort": [
+    "2b1617b80c0f95956aee4e7e5e6a4a7a",
+    "7a02cf3e8e84df071b22e221d56713c7"
+  ],
+  "title": "Solenoid Door Lock using EM-18",
+  "foldername": "Solenoid Door Lock using EM-18",
+  "schfilename": "Solenoid Door Lock using EM-18.json",
+  "schfilemtime": 1700238896157
+}

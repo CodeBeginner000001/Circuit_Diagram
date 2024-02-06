@@ -1,0 +1,39 @@
+{
+  "uuid": "eeb20f6d60b3beb1c27ce218dd4dedeb",
+  "path": "Offline/LCD%20Display",
+  "name": "LCD Display",
+  "content": "",
+  "created_at": "2023-04-07 15:36:10",
+  "updated_at": "2023-04-07 15:41:44",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ae81826b353c4fc6a2f07d3015eb87c9",
+      "title": "LCD 16X8",
+      "description": "",
+      "docType": "1",
+      "master": "29df3e78b68ea613ca8e561b2c956fc9",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1680862304,
+      "createTime": 1680861971,
+      "histories": [],
+      "created_at": "2023-04-07 15:36:11",
+      "updated_at": "2023-04-07 15:41:44"
+    }
+  ],
+  "sort": [],
+  "title": "LCD Display",
+  "foldername": "LCD Display",
+  "schfilename": "LCD Display.json",
+  "schfilemtime": 1680862304560
+}

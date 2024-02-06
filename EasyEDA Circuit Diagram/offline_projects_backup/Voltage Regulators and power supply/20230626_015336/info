@@ -1,0 +1,229 @@
+{
+  "uuid": "e738ef6af44b57610d2f2afb09aa3263",
+  "path": "Offline/Voltage%20Regulators%20and%20power%20supply",
+  "name": "Voltage Regulators and power supply",
+  "content": "",
+  "created_at": "2023-06-26 01:08:20",
+  "updated_at": "2023-06-26 01:53:36",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3421c5fdf781386143c06168555813be",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "4237489a121bfec0c76964d56481f9bb",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8e8d7e665ca04207aef52244e7317064": 3,
+        "2a544762a97445a5ab7c769ccaa3ed53": 1,
+        "c33f80dfd386ecf42252d23f6f79b33c": 4,
+        "c1353c63251d46d297a360e53af8fa94": 1,
+        "ce64087ec7b44bcc9cf6fa58095ae9fc": 1,
+        "755eb0968adf49fd95e67300e779d67b": 1,
+        "871b5feaa68e49048872c7a0985af758": 4,
+        "fa342d64f4734a06968f2f2325e60cdd": 1,
+        "6a7e89c44a744f3a8d0e3245772862aa": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 1,
+        "85a43697147c4abe96dbd0a73a0af538": 1,
+        "e532df011cc2489d85291fdaec9f1377": 1,
+        "35c3a0ab9cf049438658ff92eadc0dd6": 1,
+        "faea7ccec2a648efb10e1b791829acd1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "TERMINAL-BLOCK-3.5MM-3-PIN-ROUND-PAD",
+          6,
+          "TERMINAL-BLOCK-3-PIN-3.5MM-ROUND-PAD",
+          "5V,8V,12V,GND,GND,GND",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "63d82d7ccb5f432792c9cefe67490af0",
+            "uuid": "755eb0968adf49fd95e67300e779d67b"
+          }
+        ],
+        [
+          "1000UF/35v",
+          1,
+          "CAP-TH_BD8.0-P3.50-D0.6-FD",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900004739",
+            "BOM_Manufacturer Part": "100uF/50V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "BOM_Manufacturer": "null",
+            "puuid": "90d1b58a2d284d63b5d026a0c4e38bab",
+            "uuid": "fa342d64f4734a06968f2f2325e60cdd"
+          }
+        ],
+        [
+          "1000uF",
+          1,
+          "CAP-TH_BD10.0-P5.00-D1.0-FD",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CX(承兴)",
+            "BOM_Manufacturer Part": "GR108V025G20RR0VL4FP0",
+            "BOM_Supplier Part": "C43353",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "10740f144756421793e1ecc7520b3129",
+            "uuid": "2a544762a97445a5ab7c769ccaa3ed53"
+          }
+        ],
+        [
+          "470UF/50V",
+          1,
+          "CAP-TH_BD10.0-P5.00-D0.6-FD",
+          "C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900005233",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "470uF/50V-10x20",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5ccc8dbbf08f4341b4eaab7fcde021e4",
+            "uuid": "e532df011cc2489d85291fdaec9f1377"
+          }
+        ],
+        [
+          "1N4007RLG",
+          4,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "D5,D6,D7,D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "onsemi(安森美)",
+            "BOM_Manufacturer Part": "1N4007RLG",
+            "BOM_Supplier Part": "C53568",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "c33f80dfd386ecf42252d23f6f79b33c"
+          }
+        ],
+        [
+          "TERMINAL-BLOCK-3.5MM-2-PIN-LONG-PAD",
+          2,
+          "TERMINAL-BLOCK-2-PIN-3.5MM-LONG-PAD",
+          "GND,VCC",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f08b3ac03e0a4fd1a6a5e2172fddd034",
+            "uuid": "faea7ccec2a648efb10e1b791829acd1"
+          }
+        ],
+        [
+          "220R",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "7805",
+          1,
+          "7805",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c78688a6e7be4356adaa4632a4d8d2a8",
+            "uuid": "8e8d7e665ca04207aef52244e7317064"
+          }
+        ],
+        [
+          "7812",
+          1,
+          "7805",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c78688a6e7be4356adaa4632a4d8d2a8",
+            "uuid": "8e8d7e665ca04207aef52244e7317064"
+          }
+        ],
+        [
+          "6-0-6 / 250 mili amps transformer",
+          1,
+          "6-0-6/500 MILI AMPS TRANSFORMER",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "puuid": "84d205ca9d99494cbda52c04a2fa8d4e",
+            "uuid": "c1353c63251d46d297a360e53af8fa94"
+          }
+        ],
+        [
+          "7808",
+          1,
+          "7805",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c78688a6e7be4356adaa4632a4d8d2a8",
+            "uuid": "8e8d7e665ca04207aef52244e7317064"
+          }
+        ],
+        [
+          "LM317T",
+          1,
+          "LM317T",
+          "U5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1e75ee72ba174f8e99aa88c39453291d",
+            "uuid": "6a7e89c44a744f3a8d0e3245772862aa"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "C10K POTENTIOMETER",
+          "U6",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "39f8d7a59e284ae7932ae6d58a6dc6d8",
+            "uuid": "85a43697147c4abe96dbd0a73a0af538"
+          }
+        ]
+      ],
+      "updateTime": 1687724616,
+      "createTime": 1687721903,
+      "histories": [],
+      "created_at": "2023-06-26 01:08:23",
+      "updated_at": "2023-06-26 01:53:36"
+    }
+  ],
+  "sort": [],
+  "title": "Voltage Regulators and power supply",
+  "foldername": "Voltage Regulators and power supply",
+  "schfilename": "Voltage Regulators and power supply.json",
+  "schfilemtime": 1687724616267
+}

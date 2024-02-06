@@ -1,0 +1,343 @@
+{
+  "uuid": "73cbc31074622e76eedf781cffe94ecc",
+  "path": "Offline/IEEE Hardware",
+  "name": "IEEE Hardware",
+  "content": "",
+  "created_at": "2023-09-06 11:29:10",
+  "updated_at": "2023-09-07 20:41:02",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d78a39b3543f2b9e29d0e4cee2ca2101",
+      "title": "Power_Supply",
+      "description": "",
+      "docType": "1",
+      "master": "da5c84bbc13d8ec6778ac0e308406c02",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e981f5724ad74b0dbc032c5c99012899": 1,
+        "26216f58a34a43fcbaa6b94bd15ccf39": 1,
+        "1cf7bafbaae54afd9efdbea29dbda66a": 2,
+        "fc0c167037d74e28bd6b1e1d7a5d5729": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 1,
+        "b196742752d346998ed09a308aad64b1": 2,
+        "e04570d4d1a7427b837f7eb1a1690da0": 2,
+        "2fe6e8c1e8444ab4a75f2338ed6e5da1": 1,
+        "e07d97d845864dc9997d328ed27554c0": 1,
+        "34a51055ac414c3da95a9bdc0fcdec2d": 1,
+        "d650a0fc9e5b4b48b046bf1d350ba1d4": 1,
+        "07b1988f1ea241758e3d56302ea2d72b": 1,
+        "25cc61b5887d466d9e4229d0d41c42cf": 4,
+        "2cea20dd31fe4f8194695f9edb4e7153": 1,
+        "26664ad196b9407fa5dd291609fd0180": 3,
+        "dc9da445f35246c6a6e9f487677009ae": 1,
+        "fc1ac6b63a4c4d59985706f4d7b68708": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "104",
+          1,
+          "NP CAP-8*3.5-5.08MM",
+          "C1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "Suppression Capacitor222M/250V",
+            "Supplier Part": "C46751",
+            "Contributor": "sunbin",
+            "spiceSymbolName": "104nf",
+            "puuid": "ce28be2588fe4d3193bc8db4667c4821",
+            "uuid": "fc0c167037d74e28bd6b1e1d7a5d5729"
+          }
+        ],
+        [
+          "1000uf/63V_16mm_dia",
+          1,
+          "1000UF/63V_16MM_DIA",
+          "C2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "sarvesh.mhamal8",
+            "spiceSymbolName": "1000uf/63V_16mm_dia",
+            "puuid": "c398b914da7d4c2793c7ad26f3feb357",
+            "uuid": "2fe6e8c1e8444ab4a75f2338ed6e5da1"
+          }
+        ],
+        [
+          "1N5408G-T",
+          1,
+          "DO-201AD_BD5.3-L8.4-P12.50-D1.4-RD",
+          "D1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C526212",
+            "Manufacturer": "DIODES(美台)",
+            "Manufacturer Part": "1N5408G-T",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C526212&%26type=1&ref=editor",
+            "spiceSymbolName": "1N5408G-T",
+            "puuid": "ba4a753162c8448790556d107c1b6560",
+            "uuid": "e07d97d845864dc9997d328ed27554c0"
+          }
+        ],
+        [
+          "6A4-SRD",
+          4,
+          "VISHAY-6A4",
+          "D2,D3,D4,D5",
+          {
+            "Manufacturer": "Vishay General Semiconductor - Diodes Division",
+            "Manufacturer Part": "GI754-E3/54",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "GI754-E3/54GICT-ND",
+            "link": "",
+            "Contributor": "uzuntutheshadowdragon",
+            "spiceSymbolName": "6A4-SRD",
+            "puuid": "f7362a2e0b264389955f8689919b1e7c",
+            "uuid": "25cc61b5887d466d9e4229d0d41c42cf"
+          }
+        ],
+        [
+          "5K",
+          1,
+          "POTENTIOMETER",
+          "POT-1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TOCOS",
+            "Manufacturer Part": "GF063X-B203",
+            "Supplier Part": "C128095",
+            "Resistance(Ohms)": "5K",
+            "spiceSymbolName": "GF063X-B203 COPY",
+            "Package Display": "No",
+            "Contributor": "carlosvillamar84",
+            "puuid": "0e34e35ccd274aac8113e0f2f2b2cce7",
+            "uuid": "1cf7bafbaae54afd9efdbea29dbda66a"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "POTENTIOMETER",
+          "POT-2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TOCOS",
+            "Manufacturer Part": "GF063X-B203",
+            "Supplier Part": "C128095",
+            "Resistance(Ohms)": "5K",
+            "spiceSymbolName": "GF063X-B203 COPY",
+            "Package Display": "No",
+            "Contributor": "carlosvillamar84",
+            "puuid": "0e34e35ccd274aac8113e0f2f2b2cce7",
+            "uuid": "1cf7bafbaae54afd9efdbea29dbda66a"
+          }
+        ],
+        [
+          "BD139G",
+          1,
+          "TO-225-3_L7.6-W2.8-P2.54-L",
+          "Q1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C233736",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "BD139G",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C233736&%26type=1&ref=editor",
+            "spiceSymbolName": "BD139G",
+            "puuid": "21b1d72ff5274ab79928b9b570b048ac",
+            "uuid": "26216f58a34a43fcbaa6b94bd15ccf39"
+          }
+        ],
+        [
+          "220R",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LM317",
+          1,
+          "LM317_LM317HV_TO-220-3_L10.0-W4.5-P2.54-L",
+          "REG1",
+          {
+            "Contributor": "jitendertara",
+            "spiceSymbolName": "LM317",
+            "Manufacturer Part": "",
+            "puuid": "f7595b18f75342218c0df008dc2997e2",
+            "uuid": "d650a0fc9e5b4b48b046bf1d350ba1d4"
+          }
+        ],
+        [
+          "7812",
+          1,
+          "7805OR7812",
+          "U1",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "lvtsh",
+            "spiceSymbolName": "7812",
+            "puuid": "0965561300f04feeb07d62a3aa183b85",
+            "uuid": "07b1988f1ea241758e3d56302ea2d72b"
+          }
+        ],
+        [
+          "NO",
+          1,
+          "COOLING FAN HEADER",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "FukDiz gamzz",
+            "spiceSymbolName": "Fan 12V",
+            "puuid": "955155849a0a4d3aa84f40c3053ba31e",
+            "uuid": "e981f5724ad74b0dbc032c5c99012899"
+          }
+        ],
+        [
+          "3300UF/63V",
+          1,
+          "CAP-TH_BD18.0-P7.50-D0.8-FD",
+          "U3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900021811",
+            "Manufacturer": "null",
+            "Manufacturer Part": "3300UF/63V",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900021811&%26type=1&ref=editor",
+            "spiceSymbolName": "3300UF/63V",
+            "puuid": "c4140bf490004862a6634e827090ca39",
+            "uuid": "2cea20dd31fe4f8194695f9edb4e7153"
+          }
+        ],
+        [
+          "NO",
+          2,
+          "TO-247S_L15.6-W5.0-P5.50-L",
+          "U4,U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C84047",
+            "Manufacturer": "STMicroelectronics",
+            "Manufacturer Part": "TIP147",
+            "Contributor": "vovanunguryn",
+            "spiceSymbolName": "TIP147",
+            "puuid": "f6ce656f4f4d4c46b41006d3d0109332",
+            "uuid": "b196742752d346998ed09a308aad64b1"
+          }
+        ],
+        [
+          "5W-0,25Ohm",
+          2,
+          "5W, 0,25OHM",
+          "U6,U7",
+          {
+            "Manufacturer Part": "TC-PRW05WJW25KB00203",
+            "Contributor": "peter.feltl",
+            "spiceSymbolName": "5W-0,25Ohm",
+            "puuid": "96338db1633245cebde04be122ad283e",
+            "uuid": "e04570d4d1a7427b837f7eb1a1690da0"
+          }
+        ],
+        [
+          "Voltmeter Ammeter 4 digit",
+          1,
+          "VOLTMETER AMMETER 4 DIGIT",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "aliexpress",
+            "link": "",
+            "Contributor": "Leopardi",
+            "spiceSymbolName": "Voltmeter Ammeter 4 digit",
+            "puuid": "5b731a2492354e40bd703474e46578cd",
+            "uuid": "34a51055ac414c3da95a9bdc0fcdec2d"
+          }
+        ],
+        [
+          "TERMINAL-BLOCK-3.5MM-3-PIN-ROUND-PAD",
+          3,
+          "TERMINAL-BLOCK-3-PIN-3.5MM-ROUND-PAD",
+          "X1,X2,X3",
+          {
+            "Contributor": "Abmdav",
+            "subpart_no": "1",
+            "spiceSymbolName": "TERMINAL-BLOCK-3.5MM-3-PIN-ROUND-PAD",
+            "Manufacturer Part": "",
+            "puuid": "cb364a4636044671b23332d6e99902a7",
+            "uuid": "26664ad196b9407fa5dd291609fd0180"
+          }
+        ],
+        [
+          "TERMINAL-BLOCK-3.5MM-2-PIN-ROUND-PAD",
+          1,
+          "TERMINAL-BLOCK-2-PIN-3.5MM-ROUND-PAD",
+          "X4",
+          {
+            "Contributor": "Sujay Das",
+            "subpart_no": "1",
+            "spiceSymbolName": "TERMINAL-BLOCK-3.5MM-2-PIN-ROUND-PAD",
+            "Manufacturer Part": "",
+            "puuid": "021e41f2f0014cb2a19d4ef4bc707e1b",
+            "uuid": "dc9da445f35246c6a6e9f487677009ae"
+          }
+        ],
+        [
+          "TERMINAL-BLOCK-3.5MM-2-PIN-ROUND-PAD",
+          1,
+          "TERMINAL-BLOCK-2-PIN-3.5MM-ROUND-PAD",
+          "X5",
+          {
+            "Contributor": "Sujay Das",
+            "subpart_no": "1",
+            "spiceSymbolName": "TERMINAL-BLOCK-3.5MM-2-PIN-ROUND-PAD",
+            "Manufacturer Part": "",
+            "puuid": "021e41f2f0014cb2a19d4ef4bc707e1b",
+            "uuid": "fc1ac6b63a4c4d59985706f4d7b68708"
+          }
+        ]
+      ],
+      "updateTime": 1694099462,
+      "createTime": 1693979951,
+      "histories": [],
+      "created_at": "2023-09-06 11:29:11",
+      "updated_at": "2023-09-07 20:41:02"
+    }
+  ],
+  "sort": [],
+  "title": "IEEE Hardware",
+  "foldername": "IEEE Hardware",
+  "schfilename": "IEEE Hardware.json",
+  "schfilemtime": 1694099462977
+}

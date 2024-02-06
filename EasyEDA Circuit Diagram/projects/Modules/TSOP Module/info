@@ -1,0 +1,405 @@
+{
+  "uuid": "eaa7e641bd2ff654cda65ae70135cf3c",
+  "path": "Offline/TSOP%20Module",
+  "name": "TSOP Module",
+  "content": "",
+  "created_at": "2023-03-30 00:43:02",
+  "updated_at": "2023-03-30 02:55:20",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "af4287c9ad81e4ce0d990f952a358b7f",
+      "title": "Circuit 1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "856381a731a448a9a796e9d8eacec958": 1,
+        "beb7660708a0499fac6a060cc3851aa2": 1,
+        "1106a8a37a774ecd8ad361389275fac6": 1,
+        "8cad44e248e8477abe3842998265a98f": 1,
+        "779235243641424bad2ea21fcc6f0832": 6,
+        "36f5784b3db0489ab78ff61238720adf": 6,
+        "f048a0baf4df4b3db68ff3dba60be67c": 1,
+        "20e3a6f5d8c545018a1f2b81bf4f6f0f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "104",
+          1,
+          "R1206",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "100pF250VNP0",
+            "BOM_Supplier Part": "C27260",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "f048a0baf4df4b3db68ff3dba60be67c"
+          }
+        ],
+        [
+          "1N4007 SMD",
+          1,
+          "1N4007 SMD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C126233",
+            "BOM_Manufacturer": "SK",
+            "BOM_Manufacturer Part": "1N4007",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "bfaebe2491864808976b52ba1cf78e33",
+            "uuid": "8cad44e248e8477abe3842998265a98f"
+          }
+        ],
+        [
+          "HUN pinrække 1x6",
+          1,
+          "1*6_MALE_FEMALE_PIN_HEADER",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9896e388eafe43a39577ff22f8dacbba",
+            "uuid": "20e3a6f5d8c545018a1f2b81bf4f6f0f"
+          }
+        ],
+        [
+          "KT-1206Red LED",
+          6,
+          "LED1206-R-RD",
+          "LED2,LED3,LED4,LED5,LED6,LED7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "KT-1206Red LED",
+            "BOM_Supplier Part": "C49018",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a09626c384624c09a6dbda79dc8616ce",
+            "uuid": "36f5784b3db0489ab78ff61238720adf"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x3",
+          1,
+          "HDR-TH_3P-P2.54-V-F",
+          "P1",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*3P母",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cdd2a2f88f9047a3974e8fb98887b1dd",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "10kΩ",
+          6,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269752",
+            "BOM_Manufacturer": "Tyohm(幸亚电阻)",
+            "BOM_Manufacturer Part": "RMC120610K5%N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "779235243641424bad2ea21fcc6f0832"
+          }
+        ],
+        [
+          "PIC12F675 SMD",
+          1,
+          "PIC12F675 SMD",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Mouser",
+            "puuid": "e0525b36b37e4f17b48091f09d69ad19",
+            "uuid": "856381a731a448a9a796e9d8eacec958"
+          }
+        ],
+        [
+          "TSOP1738",
+          1,
+          "TSOP17XX",
+          "U2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b336da636bc34bd79bb47be1033cd6e7",
+            "uuid": "1106a8a37a774ecd8ad361389275fac6"
+          }
+        ]
+      ],
+      "updateTime": 1680121228,
+      "createTime": 1680117182,
+      "histories": [],
+      "created_at": "2023-03-30 00:43:02",
+      "updated_at": "2023-03-30 01:50:28"
+    },
+    {
+      "uuid": "73a91926749c2b04483b823b77c6e667",
+      "title": "Circuit 2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7f4b3876d05b4512a1fb3da30bad2569": 1,
+        "53b10bc143364501ba09309b5f16b478": 2,
+        "779235243641424bad2ea21fcc6f0832": 2,
+        "f048a0baf4df4b3db68ff3dba60be67c": 1,
+        "beb7660708a0499fac6a060cc3851aa2": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "104",
+          1,
+          "R1206",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "100pF250VNP0",
+            "BOM_Supplier Part": "C27260",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "f048a0baf4df4b3db68ff3dba60be67c"
+          }
+        ],
+        [
+          "1N4007 SMD",
+          1,
+          "1N4007 SMD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C126233",
+            "BOM_Manufacturer": "SK",
+            "BOM_Manufacturer Part": "1N4007",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "bfaebe2491864808976b52ba1cf78e33",
+            "uuid": "8cad44e248e8477abe3842998265a98f"
+          }
+        ],
+        [
+          "HUN pinrække 1x6",
+          1,
+          "1*6_MALE_FEMALE_PIN_HEADER",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "9896e388eafe43a39577ff22f8dacbba",
+            "uuid": "20e3a6f5d8c545018a1f2b81bf4f6f0f"
+          }
+        ],
+        [
+          "KT-1206Red LED",
+          6,
+          "LED1206-R-RD",
+          "LED2,LED3,LED4,LED5,LED6,LED7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "KT-1206Red LED",
+            "BOM_Supplier Part": "C49018",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "a09626c384624c09a6dbda79dc8616ce",
+            "uuid": "36f5784b3db0489ab78ff61238720adf"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x3",
+          1,
+          "HDR-TH_3P-P2.54-V-F",
+          "P1",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*3P母",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cdd2a2f88f9047a3974e8fb98887b1dd",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "10kΩ",
+          6,
+          "R1206",
+          "R1,R2,R3,R4,R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269752",
+            "BOM_Manufacturer": "Tyohm(幸亚电阻)",
+            "BOM_Manufacturer Part": "RMC120610K5%N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "779235243641424bad2ea21fcc6f0832"
+          }
+        ],
+        [
+          "PIC12F675 SMD",
+          1,
+          "PIC12F675 SMD",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Mouser",
+            "puuid": "e0525b36b37e4f17b48091f09d69ad19",
+            "uuid": "856381a731a448a9a796e9d8eacec958"
+          }
+        ],
+        [
+          "TSOP1738",
+          1,
+          "TSOP17XX",
+          "U2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b336da636bc34bd79bb47be1033cd6e7",
+            "uuid": "1106a8a37a774ecd8ad361389275fac6"
+          }
+        ],
+        [
+          "104",
+          1,
+          "R1206",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "100pF250VNP0",
+            "BOM_Supplier Part": "C27260",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "f048a0baf4df4b3db68ff3dba60be67c"
+          }
+        ],
+        [
+          "1206 LED",
+          2,
+          "LED 1206",
+          "LED1,LED8",
+          {
+            "BOM_Supplier Part": "1206",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "1206 LED",
+            "puuid": "038e3358d1c64db6b0060522556ea813",
+            "uuid": "53b10bc143364501ba09309b5f16b478"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x3",
+          1,
+          "HDR-TH_3P-P2.54-V-F",
+          "P2",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*3P母",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cdd2a2f88f9047a3974e8fb98887b1dd",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "10kΩ",
+          2,
+          "R1206",
+          "R7,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C269752",
+            "BOM_Manufacturer": "Tyohm(幸亚电阻)",
+            "BOM_Manufacturer Part": "RMC120610K5%N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "779235243641424bad2ea21fcc6f0832"
+          }
+        ],
+        [
+          "TSOP1838_",
+          1,
+          "SENSOR-TH_TSOP4X_TSOP1838",
+          "U3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fcc078e44209468a91af2405c2313b14",
+            "uuid": "7f4b3876d05b4512a1fb3da30bad2569"
+          }
+        ]
+      ],
+      "updateTime": 1680125120,
+      "createTime": 1680124128,
+      "histories": [],
+      "created_at": "2023-03-30 02:38:48",
+      "updated_at": "2023-03-30 02:55:20"
+    },
+    {
+      "uuid": "2dd98a827d32fe1e1ea1e03b84e9ddd0",
+      "puuid": "eaa7e641bd2ff654cda65ae70135cf3c",
+      "title": "PCB_TSOP Module",
+      "filename": "PCB_TSOP Module.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0610c91ea88544ecbdf889657d55abcb": 1,
+        "bfaebe2491864808976b52ba1cf78e33": 1,
+        "9896e388eafe43a39577ff22f8dacbba": 1,
+        "a09626c384624c09a6dbda79dc8616ce": 6,
+        "cdd2a2f88f9047a3974e8fb98887b1dd": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 6,
+        "e0525b36b37e4f17b48091f09d69ad19": 1,
+        "b336da636bc34bd79bb47be1033cd6e7": 1
+      },
+      "BOM": [],
+      "updateTime": 1680124014,
+      "createTime": 1680121268,
+      "histories": [],
+      "created_at": "2023-03-30 01:51:08",
+      "updated_at": "2023-03-30 02:36:54"
+    }
+  ],
+  "sort": [
+    "af4287c9ad81e4ce0d990f952a358b7f",
+    "73a91926749c2b04483b823b77c6e667"
+  ],
+  "title": "TSOP Module",
+  "foldername": "TSOP Module",
+  "schfilename": "TSOP Module.json",
+  "schfilemtime": 1680125120516
+}

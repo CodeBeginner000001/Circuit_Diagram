@@ -1,0 +1,75 @@
+{
+  "uuid": "ef8c140f36fb4f72335cd628500335e3",
+  "path": "Offline/Solenoid%20Door%20Lock%20using%20EM-18",
+  "name": "Solenoid Door Lock using EM-18",
+  "content": "",
+  "created_at": "2023-11-17 21:05:34",
+  "updated_at": "2023-11-17 21:34:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2b1617b80c0f95956aee4e7e5e6a4a7a",
+      "title": "3x3 KeyPad",
+      "description": "",
+      "docType": "1",
+      "master": "ec9a404a18b547827ffc4744649d6200",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "61a95e5c9774450599fe87fd32c6347f": 9,
+        "067f22ec3d424564a46d3c7e1ebbec4a": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PINHEADER-6PIN6",
+          1,
+          "PINHEADER-6PIN",
+          "CN1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "tiennguyenanh1",
+            "spiceSymbolName": "PINHEADER-6PIN6",
+            "puuid": "6ef05b3d0154437899c973c679e1dd59",
+            "uuid": "067f22ec3d424564a46d3c7e1ebbec4a"
+          }
+        ],
+        [
+          "",
+          9,
+          "MICROSWITCH",
+          "U1,U2,U3,U4,U5,U6,U7,U8,U9",
+          {
+            "Contributor": "LuckyStiff63",
+            "sourceId": "F4cICwqI0",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "ESO_SPST_Momentary",
+            "Manufacturer Part": "",
+            "puuid": "67803303c62e4586a9789d12ec72de95",
+            "uuid": "61a95e5c9774450599fe87fd32c6347f"
+          }
+        ]
+      ],
+      "updateTime": 1700237052,
+      "createTime": 1700235334,
+      "histories": [],
+      "created_at": "2023-11-17 21:05:34",
+      "updated_at": "2023-11-17 21:34:12"
+    }
+  ],
+  "sort": [],
+  "title": "Solenoid Door Lock using EM-18",
+  "foldername": "Solenoid Door Lock using EM-18",
+  "schfilename": "Solenoid Door Lock using EM-18.json",
+  "schfilemtime": 1700237052414
+}

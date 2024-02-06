@@ -1,0 +1,80 @@
+{
+  "uuid": "eeb20f6d60b3beb1c27ce218dd4dedeb",
+  "path": "Offline/LCD%20Display%20With%20Arduino",
+  "name": "LCD Display With Arduino",
+  "content": "",
+  "created_at": "2023-04-07 15:36:10",
+  "updated_at": "2023-04-07 16:21:45",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ae81826b353c4fc6a2f07d3015eb87c9",
+      "title": "LCD 16X8",
+      "description": "",
+      "docType": "1",
+      "master": "ad09f8534f549ef8b5a7764c73880fcb",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "65d130cd14934fd08501f823435aa48e": 2,
+        "5c253eab58d34454a64053b4df4f856d": 2,
+        "8eade5dcd50942ce97cc64da86f62cea": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "GLCD_128X64",
+          2,
+          "GLCD_128X64_LC-569-D",
+          "LCD1,LCD2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "99e1489152334a8f9fa6be628b85aa69",
+            "uuid": "5c253eab58d34454a64053b4df4f856d"
+          }
+        ],
+        [
+          "ARDUINO UNO R3",
+          2,
+          "E14_ARDUINO_PUBLISHED_ARDUINO_UNO",
+          "PCB1,PCB2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Botland",
+            "BOM_Manufacturer Part": "",
+            "puuid": "900de5e90fa7403d8fcb84ee62d74e75",
+            "uuid": "65d130cd14934fd08501f823435aa48e"
+          }
+        ],
+        [
+          "10K Potentiometer With Knob 90",
+          2,
+          "10K-POTENTIOMETER",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "507b2a35f0784938a468cbb052d75096",
+            "uuid": "8eade5dcd50942ce97cc64da86f62cea"
+          }
+        ]
+      ],
+      "updateTime": 1680864705,
+      "createTime": 1680861971,
+      "histories": [],
+      "created_at": "2023-04-07 15:36:11",
+      "updated_at": "2023-04-07 16:21:45"
+    }
+  ],
+  "sort": [],
+  "title": "LCD Display With Arduino",
+  "foldername": "LCD Display With Arduino",
+  "schfilename": "LCD Display With Arduino.json",
+  "schfilemtime": 1680864705374
+}
