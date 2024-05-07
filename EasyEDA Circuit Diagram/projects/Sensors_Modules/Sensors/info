@@ -1,0 +1,68 @@
+{
+  "path": "Offline/Sensors",
+  "foldername": "Sensors",
+  "name": "Sensors",
+  "title": "Sensors",
+  "uuid": "a930cb83122545fbbe7bbad34b18de39",
+  "created_at": "2024-05-03 10:58:32",
+  "updated_at": "2024-05-03 10:58:32",
+  "documents": [
+    {
+      "uuid": "42a826284621e8b73d1b058e19852a9c",
+      "title": "3x3 KeyPad",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1714713414,
+      "createTime": 1714713414,
+      "histories": [],
+      "created_at": "2024-05-03 10:46:54",
+      "updated_at": "2024-05-03 10:46:54"
+    },
+    {
+      "uuid": "23c8d4f030b4a2a06665d2867c8c5c83",
+      "title": "EM-18 Module",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1714713414,
+      "createTime": 1714713414,
+      "histories": [],
+      "created_at": "2024-05-03 10:46:54",
+      "updated_at": "2024-05-03 10:46:54"
+    },
+    {
+      "uuid": "821d00e9e9872495c5aa45afbe409f75",
+      "title": "Relay Module",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1714713414,
+      "createTime": 1714713414,
+      "histories": [],
+      "created_at": "2024-05-03 10:46:54",
+      "updated_at": "2024-05-03 10:46:54"
+    },
+    {
+      "uuid": "e7611b30d734bddcd9c17a7f92755cde",
+      "title": "16x2 LCD Display",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1714713414,
+      "createTime": 1714713414,
+      "histories": [],
+      "created_at": "2024-05-03 10:46:54",
+      "updated_at": "2024-05-03 10:46:54"
+    }
+  ],
+  "content": "",
+  "stick": "",
+  "sort": [],
+  "schfilename": "Electronics Sensor& Modules.json",
+  "schfilemtime": 1714713414024.908
+}

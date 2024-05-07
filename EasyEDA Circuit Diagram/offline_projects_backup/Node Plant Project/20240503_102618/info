@@ -1,0 +1,5552 @@
+{
+  "uuid": "1df7c8feb346fe00e45e727aae47bc93",
+  "path": "Offline/Node Plant Project",
+  "name": "Node Plant Project",
+  "content": "",
+  "created_at": "2024-01-26 11:04:22",
+  "updated_at": "2024-05-03 10:26:17",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a90a741d71e3a13de49fad1b2e1f12e3",
+      "title": "DHT-11 & DHT-22",
+      "description": "",
+      "docType": "1",
+      "master": "ba51dbb180ab930cf9a380f04fc20512",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1,
+        "49df8bec98da496ab4b19b467d0caf8f": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "1a46d553a2aa4d2caacddf0868863116": 1,
+        "5b276e16529d46d0b819de51b30a1c88": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY MODULE 1 RELAYS",
+          "J2",
+          {
+            "Manufacturer Part": "1-Channel 5V Relay Module w/ Opto-isolator",
+            "Supplier Part": "SKU: 223429",
+            "link": "http://www.volumerate.com/product/1-channel-5v-relay-module-w-opto-isolator-red-blue-223429",
+            "Contributor": "Jehangirkhan",
+            "spiceSymbolName": "RELAY",
+            "puuid": "",
+            "uuid": "0b3bbfe4d5d64867b89395afb69f3b1a"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE5",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          2,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1,P2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U18",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE6",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U20",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "0.91 inch OLED module",
+          1,
+          "0.91 INCH OLED MODULE",
+          "U21",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Мурат Еньков",
+            "spiceSymbolName": "0.91 inch OLED module",
+            "puuid": "3157291ec27245939d1a8510a325ca04",
+            "uuid": "7a04100a7b0940fb8c63f24f489786e8"
+          }
+        ],
+        [
+          "0.91\" 128x32 OLED Display Dawid",
+          1,
+          "0.91\" 128X32 OLED DISPLAY DAWID",
+          "U22",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dawidbredenkamp",
+            "spiceSymbolName": "0.91\" 128x32 OLED Display Dawid",
+            "puuid": "e8286c4a65594af88b125662332799be",
+            "uuid": "ea3e5e8958ca4b5ab3ca52325381cd2a"
+          }
+        ],
+        [
+          "0.96 inch oled display",
+          1,
+          "0.96 INCH OLED DISPLAY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "noorul_haque",
+            "spiceSymbolName": "0.96 inch oled display",
+            "puuid": "ae5af4bf815943aeac9022a846ea3e69",
+            "uuid": "823aedfdd5a046cfae9d4eb2bea8917e"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE7",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U25",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "10k Potentiometer",
+          1,
+          "10K POTENTIOMETER",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Sagar Karnewar",
+            "spiceSymbolName": "10k Potentiometer",
+            "puuid": "2413a9725e6c48b6892328433f526644",
+            "uuid": "8e694e20eef240a18a52367cc50af795"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE8",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U27",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U28",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "I2C LCD 16X2",
+          1,
+          "LCD_16X2_I2C_V2",
+          "U29",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "vipe",
+            "spiceSymbolName": "I2C LCD 16X2",
+            "puuid": "995e7b683fc341fc835c2d3b41dbb989",
+            "uuid": "dca81f3e69c94a0d9d90c161df0cd998"
+          }
+        ]
+      ],
+      "updateTime": 1714712177,
+      "createTime": 1706247264,
+      "histories": [],
+      "created_at": "2024-01-26 11:04:24",
+      "updated_at": "2024-05-03 10:26:17"
+    },
+    {
+      "uuid": "e7fb29fb0e0b4e1d398f1447324e58f4",
+      "title": "Capacitive Soil Moisture Sensor",
+      "description": "",
+      "docType": "1",
+      "master": "aefc38b86d9289a89dbece18f25f985e",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d5a816a6bab84d07a15c73d8d056d861": 1,
+        "a0ff458c2e574ecf8e65678c08d2905a": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1,
+        "49df8bec98da496ab4b19b467d0caf8f": 1,
+        "e232439d708b4e0c86269b24ae810b31": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY MODULE 1 RELAYS",
+          "J2",
+          {
+            "Manufacturer Part": "1-Channel 5V Relay Module w/ Opto-isolator",
+            "Supplier Part": "SKU: 223429",
+            "link": "http://www.volumerate.com/product/1-channel-5v-relay-module-w-opto-isolator-red-blue-223429",
+            "Contributor": "Jehangirkhan",
+            "spiceSymbolName": "RELAY",
+            "puuid": "",
+            "uuid": "0b3bbfe4d5d64867b89395afb69f3b1a"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE5",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          2,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1,P2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U18",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE6",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U20",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "0.91 inch OLED module",
+          1,
+          "0.91 INCH OLED MODULE",
+          "U21",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Мурат Еньков",
+            "spiceSymbolName": "0.91 inch OLED module",
+            "puuid": "3157291ec27245939d1a8510a325ca04",
+            "uuid": "7a04100a7b0940fb8c63f24f489786e8"
+          }
+        ],
+        [
+          "0.91\" 128x32 OLED Display Dawid",
+          1,
+          "0.91\" 128X32 OLED DISPLAY DAWID",
+          "U22",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dawidbredenkamp",
+            "spiceSymbolName": "0.91\" 128x32 OLED Display Dawid",
+            "puuid": "e8286c4a65594af88b125662332799be",
+            "uuid": "ea3e5e8958ca4b5ab3ca52325381cd2a"
+          }
+        ],
+        [
+          "0.96 inch oled display",
+          1,
+          "0.96 INCH OLED DISPLAY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "noorul_haque",
+            "spiceSymbolName": "0.96 inch oled display",
+            "puuid": "ae5af4bf815943aeac9022a846ea3e69",
+            "uuid": "823aedfdd5a046cfae9d4eb2bea8917e"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE7",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U25",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "10k Potentiometer",
+          1,
+          "10K POTENTIOMETER",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Sagar Karnewar",
+            "spiceSymbolName": "10k Potentiometer",
+            "puuid": "2413a9725e6c48b6892328433f526644",
+            "uuid": "8e694e20eef240a18a52367cc50af795"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE8",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U27",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U28",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "I2C LCD 16X2",
+          1,
+          "LCD_16X2_I2C_V2",
+          "U29",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "vipe",
+            "spiceSymbolName": "I2C LCD 16X2",
+            "puuid": "995e7b683fc341fc835c2d3b41dbb989",
+            "uuid": "dca81f3e69c94a0d9d90c161df0cd998"
+          }
+        ]
+      ],
+      "updateTime": 1714712177,
+      "createTime": 1706258856,
+      "histories": [],
+      "created_at": "2024-01-26 14:17:36",
+      "updated_at": "2024-05-03 10:26:17"
+    },
+    {
+      "uuid": "ed03b992b7bd6d03c0347456cb8787d3",
+      "title": "Soil Moisture Sensor",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "49df8bec98da496ab4b19b467d0caf8f": 1,
+        "e0be8bb5fac34cda807aabcb9eea9d7a": 1,
+        "78e517bcd2c74ec697d2318dbc68ad29": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ]
+      ],
+      "updateTime": 1706261258,
+      "createTime": 1706259655,
+      "histories": [],
+      "created_at": "2024-01-26 14:30:55",
+      "updated_at": "2024-01-26 14:57:38"
+    },
+    {
+      "uuid": "3bf35f558d3a3b8f697ec933b9a3e01e",
+      "title": "BH1750",
+      "description": "",
+      "docType": "1",
+      "master": "795a25789785bbd41fd37072bc1f9109",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "18bc831e4d354f50960258df6ebb1db3": 1,
+        "d8502ebe7eef47a692c226b8d3443c45": 1,
+        "34cc791f5c5a4d3ba2acbf252d5cd33e": 1,
+        "bbe1949b3c4f4ce38bc09f8e5f136fe6": 1,
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "49df8bec98da496ab4b19b467d0caf8f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY MODULE 1 RELAYS",
+          "J2",
+          {
+            "Manufacturer Part": "1-Channel 5V Relay Module w/ Opto-isolator",
+            "Supplier Part": "SKU: 223429",
+            "link": "http://www.volumerate.com/product/1-channel-5v-relay-module-w-opto-isolator-red-blue-223429",
+            "Contributor": "Jehangirkhan",
+            "spiceSymbolName": "RELAY",
+            "puuid": "",
+            "uuid": "0b3bbfe4d5d64867b89395afb69f3b1a"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE5",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          2,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1,P2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U18",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE6",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U20",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "0.91 inch OLED module",
+          1,
+          "0.91 INCH OLED MODULE",
+          "U21",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Мурат Еньков",
+            "spiceSymbolName": "0.91 inch OLED module",
+            "puuid": "3157291ec27245939d1a8510a325ca04",
+            "uuid": "7a04100a7b0940fb8c63f24f489786e8"
+          }
+        ],
+        [
+          "0.91\" 128x32 OLED Display Dawid",
+          1,
+          "0.91\" 128X32 OLED DISPLAY DAWID",
+          "U22",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dawidbredenkamp",
+            "spiceSymbolName": "0.91\" 128x32 OLED Display Dawid",
+            "puuid": "e8286c4a65594af88b125662332799be",
+            "uuid": "ea3e5e8958ca4b5ab3ca52325381cd2a"
+          }
+        ],
+        [
+          "0.96 inch oled display",
+          1,
+          "0.96 INCH OLED DISPLAY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "noorul_haque",
+            "spiceSymbolName": "0.96 inch oled display",
+            "puuid": "ae5af4bf815943aeac9022a846ea3e69",
+            "uuid": "823aedfdd5a046cfae9d4eb2bea8917e"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE7",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U25",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "10k Potentiometer",
+          1,
+          "10K POTENTIOMETER",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Sagar Karnewar",
+            "spiceSymbolName": "10k Potentiometer",
+            "puuid": "2413a9725e6c48b6892328433f526644",
+            "uuid": "8e694e20eef240a18a52367cc50af795"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE8",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U27",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U28",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "I2C LCD 16X2",
+          1,
+          "LCD_16X2_I2C_V2",
+          "U29",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "vipe",
+            "spiceSymbolName": "I2C LCD 16X2",
+            "puuid": "995e7b683fc341fc835c2d3b41dbb989",
+            "uuid": "dca81f3e69c94a0d9d90c161df0cd998"
+          }
+        ]
+      ],
+      "updateTime": 1714712177,
+      "createTime": 1706260262,
+      "histories": [],
+      "created_at": "2024-01-26 14:41:02",
+      "updated_at": "2024-05-03 10:26:17"
+    },
+    {
+      "uuid": "898b7210a32860e4e355f9af93e0b003",
+      "title": "Relay",
+      "description": "",
+      "docType": "1",
+      "master": "247c590d59f9c2b1dd821e12acd2c8b1",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0b3bbfe4d5d64867b89395afb69f3b1a": 1,
+        "65722e39c1044a799a931730924bb8e3": 2,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "49df8bec98da496ab4b19b467d0caf8f": 1,
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY MODULE 1 RELAYS",
+          "J2",
+          {
+            "Manufacturer Part": "1-Channel 5V Relay Module w/ Opto-isolator",
+            "Supplier Part": "SKU: 223429",
+            "link": "http://www.volumerate.com/product/1-channel-5v-relay-module-w-opto-isolator-red-blue-223429",
+            "Contributor": "Jehangirkhan",
+            "spiceSymbolName": "RELAY",
+            "puuid": "",
+            "uuid": "0b3bbfe4d5d64867b89395afb69f3b1a"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE5",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          2,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1,P2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U18",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE6",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U20",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "0.91 inch OLED module",
+          1,
+          "0.91 INCH OLED MODULE",
+          "U21",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Мурат Еньков",
+            "spiceSymbolName": "0.91 inch OLED module",
+            "puuid": "3157291ec27245939d1a8510a325ca04",
+            "uuid": "7a04100a7b0940fb8c63f24f489786e8"
+          }
+        ],
+        [
+          "0.91\" 128x32 OLED Display Dawid",
+          1,
+          "0.91\" 128X32 OLED DISPLAY DAWID",
+          "U22",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dawidbredenkamp",
+            "spiceSymbolName": "0.91\" 128x32 OLED Display Dawid",
+            "puuid": "e8286c4a65594af88b125662332799be",
+            "uuid": "ea3e5e8958ca4b5ab3ca52325381cd2a"
+          }
+        ],
+        [
+          "0.96 inch oled display",
+          1,
+          "0.96 INCH OLED DISPLAY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "noorul_haque",
+            "spiceSymbolName": "0.96 inch oled display",
+            "puuid": "ae5af4bf815943aeac9022a846ea3e69",
+            "uuid": "823aedfdd5a046cfae9d4eb2bea8917e"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE7",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U25",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "10k Potentiometer",
+          1,
+          "10K POTENTIOMETER",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Sagar Karnewar",
+            "spiceSymbolName": "10k Potentiometer",
+            "puuid": "2413a9725e6c48b6892328433f526644",
+            "uuid": "8e694e20eef240a18a52367cc50af795"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE8",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U27",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U28",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "I2C LCD 16X2",
+          1,
+          "LCD_16X2_I2C_V2",
+          "U29",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "vipe",
+            "spiceSymbolName": "I2C LCD 16X2",
+            "puuid": "995e7b683fc341fc835c2d3b41dbb989",
+            "uuid": "dca81f3e69c94a0d9d90c161df0cd998"
+          }
+        ]
+      ],
+      "updateTime": 1714712177,
+      "createTime": 1706267248,
+      "histories": [],
+      "created_at": "2024-01-26 16:37:28",
+      "updated_at": "2024-05-03 10:26:17"
+    },
+    {
+      "uuid": "6b98223b38eea5f4fcf18c736f84f875",
+      "title": "0.91 INCH OLED Display",
+      "description": "",
+      "docType": "1",
+      "master": "f5a1f018e9cab444574c6584dd829efe",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1,
+        "49df8bec98da496ab4b19b467d0caf8f": 1,
+        "7a04100a7b0940fb8c63f24f489786e8": 1,
+        "ea3e5e8958ca4b5ab3ca52325381cd2a": 1,
+        "823aedfdd5a046cfae9d4eb2bea8917e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY MODULE 1 RELAYS",
+          "J2",
+          {
+            "Manufacturer Part": "1-Channel 5V Relay Module w/ Opto-isolator",
+            "Supplier Part": "SKU: 223429",
+            "link": "http://www.volumerate.com/product/1-channel-5v-relay-module-w-opto-isolator-red-blue-223429",
+            "Contributor": "Jehangirkhan",
+            "spiceSymbolName": "RELAY",
+            "puuid": "",
+            "uuid": "0b3bbfe4d5d64867b89395afb69f3b1a"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE5",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          2,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1,P2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U18",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE6",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U20",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "0.91 inch OLED module",
+          1,
+          "0.91 INCH OLED MODULE",
+          "U21",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Мурат Еньков",
+            "spiceSymbolName": "0.91 inch OLED module",
+            "puuid": "3157291ec27245939d1a8510a325ca04",
+            "uuid": "7a04100a7b0940fb8c63f24f489786e8"
+          }
+        ],
+        [
+          "0.91\" 128x32 OLED Display Dawid",
+          1,
+          "0.91\" 128X32 OLED DISPLAY DAWID",
+          "U22",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dawidbredenkamp",
+            "spiceSymbolName": "0.91\" 128x32 OLED Display Dawid",
+            "puuid": "e8286c4a65594af88b125662332799be",
+            "uuid": "ea3e5e8958ca4b5ab3ca52325381cd2a"
+          }
+        ],
+        [
+          "0.96 inch oled display",
+          1,
+          "0.96 INCH OLED DISPLAY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "noorul_haque",
+            "spiceSymbolName": "0.96 inch oled display",
+            "puuid": "ae5af4bf815943aeac9022a846ea3e69",
+            "uuid": "823aedfdd5a046cfae9d4eb2bea8917e"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE7",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U25",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "10k Potentiometer",
+          1,
+          "10K POTENTIOMETER",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Sagar Karnewar",
+            "spiceSymbolName": "10k Potentiometer",
+            "puuid": "2413a9725e6c48b6892328433f526644",
+            "uuid": "8e694e20eef240a18a52367cc50af795"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE8",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U27",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U28",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "I2C LCD 16X2",
+          1,
+          "LCD_16X2_I2C_V2",
+          "U29",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "vipe",
+            "spiceSymbolName": "I2C LCD 16X2",
+            "puuid": "995e7b683fc341fc835c2d3b41dbb989",
+            "uuid": "dca81f3e69c94a0d9d90c161df0cd998"
+          }
+        ]
+      ],
+      "updateTime": 1714712177,
+      "createTime": 1706268173,
+      "histories": [],
+      "created_at": "2024-01-26 16:52:53",
+      "updated_at": "2024-05-03 10:26:17"
+    },
+    {
+      "uuid": "e429564c9fc01eee253b1a29d3488e4c",
+      "title": "16X2 LCD Display",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6be69e8ce7a44e9ebfb04b7ff461d0da": 1,
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "49df8bec98da496ab4b19b467d0caf8f": 1,
+        "8e694e20eef240a18a52367cc50af795": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY MODULE 1 RELAYS",
+          "J2",
+          {
+            "Manufacturer Part": "1-Channel 5V Relay Module w/ Opto-isolator",
+            "Supplier Part": "SKU: 223429",
+            "link": "http://www.volumerate.com/product/1-channel-5v-relay-module-w-opto-isolator-red-blue-223429",
+            "Contributor": "Jehangirkhan",
+            "spiceSymbolName": "RELAY",
+            "puuid": "",
+            "uuid": "0b3bbfe4d5d64867b89395afb69f3b1a"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE5",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          2,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1,P2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U18",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE6",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U20",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "0.91 inch OLED module",
+          1,
+          "0.91 INCH OLED MODULE",
+          "U21",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Мурат Еньков",
+            "spiceSymbolName": "0.91 inch OLED module",
+            "puuid": "3157291ec27245939d1a8510a325ca04",
+            "uuid": "7a04100a7b0940fb8c63f24f489786e8"
+          }
+        ],
+        [
+          "0.91\" 128x32 OLED Display Dawid",
+          1,
+          "0.91\" 128X32 OLED DISPLAY DAWID",
+          "U22",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dawidbredenkamp",
+            "spiceSymbolName": "0.91\" 128x32 OLED Display Dawid",
+            "puuid": "e8286c4a65594af88b125662332799be",
+            "uuid": "ea3e5e8958ca4b5ab3ca52325381cd2a"
+          }
+        ],
+        [
+          "0.96 inch oled display",
+          1,
+          "0.96 INCH OLED DISPLAY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "noorul_haque",
+            "spiceSymbolName": "0.96 inch oled display",
+            "puuid": "ae5af4bf815943aeac9022a846ea3e69",
+            "uuid": "823aedfdd5a046cfae9d4eb2bea8917e"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE7",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U25",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "10k Potentiometer",
+          1,
+          "10K POTENTIOMETER",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Sagar Karnewar",
+            "spiceSymbolName": "10k Potentiometer",
+            "puuid": "2413a9725e6c48b6892328433f526644",
+            "uuid": "8e694e20eef240a18a52367cc50af795"
+          }
+        ]
+      ],
+      "updateTime": 1706270516,
+      "createTime": 1706269073,
+      "histories": [],
+      "created_at": "2024-01-26 17:07:53",
+      "updated_at": "2024-01-26 17:31:56"
+    },
+    {
+      "uuid": "9337bf3c46855d2440d3f61b5f31f4a8",
+      "title": "16X2 LCD Display I2C",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "49df8bec98da496ab4b19b467d0caf8f": 1,
+        "ff0fb1dc7a7140d2bf062f3147c8f3f7": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "dca81f3e69c94a0d9d90c161df0cd998": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT11F",
+          "DD1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "perchik36",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "3402f14ebbd4403f996a9d147a068692",
+            "uuid": "5b276e16529d46d0b819de51b30a1c88"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE1",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U1",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "DHT-11",
+          1,
+          "DHT-11",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "UzainYasin",
+            "spiceSymbolName": "DHT-11",
+            "puuid": "badadf4611574942822b5d8a11be9b27",
+            "uuid": "1a46d553a2aa4d2caacddf0868863116"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE2",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR V1.2 PCB",
+          "U4",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "Capacitive Soil Moisture Sensor v1.2",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Pablo Avila",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "5bb4e83ac76849dda7d7731f36662898",
+            "uuid": "d5a816a6bab84d07a15c73d8d056d861"
+          }
+        ],
+        [
+          "Capacitive Soil Moisture Sensor v1.2",
+          1,
+          "",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Franiel",
+            "spiceSymbolName": "Capacitive Soil Moisture Sensor v1.2",
+            "puuid": "",
+            "uuid": "a0ff458c2e574ecf8e65678c08d2905a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U6",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U7",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "CAPACITIVE SOIL MOISTURE SENSOR 2",
+          1,
+          "CAPACITIVE SOIL MOISTURE SENSOR LAYOUT 2",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "phatcomp_it",
+            "spiceSymbolName": "CAPACITIVE SOIL MOISTURE SENSOR 2",
+            "puuid": "581bc3417cd04191b16baf3649e8815c",
+            "uuid": "e232439d708b4e0c86269b24ae810b31"
+          }
+        ],
+        [
+          "4Pin",
+          1,
+          "HEADERPIN4PIN",
+          "H1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Hestore",
+            "Supplier Part": "ZL201",
+            "link": "",
+            "Contributor": "hunkrekker",
+            "spiceSymbolName": "4Pin",
+            "puuid": "f0752d296c084d0f93f1de590a51473c",
+            "uuid": "78e517bcd2c74ec697d2318dbc68ad29"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE3",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Soil Moisture Sensor",
+          1,
+          "SOIL MOISTURE SENSOR",
+          "S1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "r.teerapong5456",
+            "spiceSymbolName": "Soil Moisture Sensor",
+            "puuid": "0f238a0646a34eedbc31c2d718febcf2",
+            "uuid": "e0be8bb5fac34cda807aabcb9eea9d7a"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U10",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE4",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "jesuschoy",
+            "spiceSymbolName": "BH1750",
+            "puuid": "d3f697f659dd47718006e47bce9fb384",
+            "uuid": "18bc831e4d354f50960258df6ebb1db3"
+          }
+        ],
+        [
+          "BH1750-PINOUT-NEW",
+          1,
+          "BH1750-PINOUT-F",
+          "U12",
+          {
+            "Manufacturer Part": "New SchematicLib",
+            "Contributor": "sm94126",
+            "Supplier Part": "",
+            "Supplier": "Tinytronics",
+            "spiceSymbolName": "BH1750-PINOUT-NEW",
+            "puuid": "e204d2f5888c490fa7fc48fba006e6ff",
+            "uuid": "d8502ebe7eef47a692c226b8d3443c45"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750_MODULE",
+          "U13",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dwipanjan",
+            "spiceSymbolName": "BH1750",
+            "puuid": "109e7f4c488a4f29a75b6c4620ea17fd",
+            "uuid": "34cc791f5c5a4d3ba2acbf252d5cd33e"
+          }
+        ],
+        [
+          "BH1750",
+          1,
+          "BH1750",
+          "U14",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "RS-Online",
+            "link": "",
+            "Contributor": "SRY TIS",
+            "spiceSymbolName": "BH1750",
+            "puuid": "8c6d471db542490fb208a0c5d35d5267",
+            "uuid": "bbe1949b3c4f4ce38bc09f8e5f136fe6"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U16",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY MODULE 1 RELAYS",
+          "J2",
+          {
+            "Manufacturer Part": "1-Channel 5V Relay Module w/ Opto-isolator",
+            "Supplier Part": "SKU: 223429",
+            "link": "http://www.volumerate.com/product/1-channel-5v-relay-module-w-opto-isolator-red-blue-223429",
+            "Contributor": "Jehangirkhan",
+            "spiceSymbolName": "RELAY",
+            "puuid": "",
+            "uuid": "0b3bbfe4d5d64867b89395afb69f3b1a"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE5",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "HEADER PAD 3 PIN",
+          2,
+          "CONNECTOR_PINHEADER_2.54MM:PINHEADER_1X3",
+          "P1,P2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE",
+            "Manufacturer Part": "Female headerHDR1X8-2.54",
+            "Supplier Part": "C27438",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "vincentboisselier",
+            "spiceSymbolName": "HEADER PAD 3 PIN",
+            "puuid": "4461dead12974c72b6b22dcd3014d83e",
+            "uuid": "65722e39c1044a799a931730924bb8e3"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U18",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE6",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U20",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "0.91 inch OLED module",
+          1,
+          "0.91 INCH OLED MODULE",
+          "U21",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Мурат Еньков",
+            "spiceSymbolName": "0.91 inch OLED module",
+            "puuid": "3157291ec27245939d1a8510a325ca04",
+            "uuid": "7a04100a7b0940fb8c63f24f489786e8"
+          }
+        ],
+        [
+          "0.91\" 128x32 OLED Display Dawid",
+          1,
+          "0.91\" 128X32 OLED DISPLAY DAWID",
+          "U22",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "dawidbredenkamp",
+            "spiceSymbolName": "0.91\" 128x32 OLED Display Dawid",
+            "puuid": "e8286c4a65594af88b125662332799be",
+            "uuid": "ea3e5e8958ca4b5ab3ca52325381cd2a"
+          }
+        ],
+        [
+          "0.96 inch oled display",
+          1,
+          "0.96 INCH OLED DISPLAY",
+          "U23",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "noorul_haque",
+            "spiceSymbolName": "0.96 inch oled display",
+            "puuid": "ae5af4bf815943aeac9022a846ea3e69",
+            "uuid": "823aedfdd5a046cfae9d4eb2bea8917e"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE7",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U25",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "10k Potentiometer",
+          1,
+          "10K POTENTIOMETER",
+          "U26",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Sagar Karnewar",
+            "spiceSymbolName": "10k Potentiometer",
+            "puuid": "2413a9725e6c48b6892328433f526644",
+            "uuid": "8e694e20eef240a18a52367cc50af795"
+          }
+        ],
+        [
+          "NODE_MCU_V3_ESP8266",
+          1,
+          "NODEMCU-12E;NODEMCU-ESP8266",
+          "NODE8",
+          {
+            "Contributor": "Denis09",
+            "Supplier Part": "",
+            "Supplier": "TME",
+            "spiceSymbolName": "NODE_MCU_V3_ESP8266",
+            "Manufacturer Part": "",
+            "puuid": "e33062419166428abd09213787a39ccc",
+            "uuid": "ff0fb1dc7a7140d2bf062f3147c8f3f7"
+          }
+        ],
+        [
+          "Arduino Uno",
+          1,
+          "UNO_R3;WO ARDUINO UNO",
+          "U27",
+          {
+            "Contributor": "Peter Story",
+            "sourceId": "frlCUcuMG",
+            "timeStamp": "1456115342",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "Arduino Uno",
+            "Manufacturer Part": "",
+            "puuid": "736c0f9592624a7190a96ab3a0c82aec",
+            "uuid": "49df8bec98da496ab4b19b467d0caf8f"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U28",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "I2C LCD 16X2",
+          1,
+          "LCD_16X2_I2C_V2",
+          "U29",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "vipe",
+            "spiceSymbolName": "I2C LCD 16X2",
+            "puuid": "995e7b683fc341fc835c2d3b41dbb989",
+            "uuid": "dca81f3e69c94a0d9d90c161df0cd998"
+          }
+        ]
+      ],
+      "updateTime": 1706270882,
+      "createTime": 1706269106,
+      "histories": [],
+      "created_at": "2024-01-26 17:08:26",
+      "updated_at": "2024-01-26 17:38:02"
+    }
+  ],
+  "sort": [
+    "a90a741d71e3a13de49fad1b2e1f12e3",
+    "e7fb29fb0e0b4e1d398f1447324e58f4",
+    "ed03b992b7bd6d03c0347456cb8787d3",
+    "3bf35f558d3a3b8f697ec933b9a3e01e",
+    "898b7210a32860e4e355f9af93e0b003",
+    "6b98223b38eea5f4fcf18c736f84f875",
+    "e429564c9fc01eee253b1a29d3488e4c",
+    "9337bf3c46855d2440d3f61b5f31f4a8"
+  ],
+  "title": "Node Plant Project",
+  "foldername": "Node Plant Project",
+  "schfilename": "Node Plant Project.json",
+  "schfilemtime": 1714712178042
+}
